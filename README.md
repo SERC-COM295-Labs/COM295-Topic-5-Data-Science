@@ -49,3 +49,32 @@ A Jupyter Notebook is provided with the necessary code snippets to get you start
 
 This exercise should provide a comprehensive exploration of the Iris dataset, helping understand data visualization's role in data analysis and decision-making.
 
+
+## Exercise 2 - Linear Regression
+
+In this exercise, using the iris data set, learners will implement a linear regression model to predict the petal length of iris flowers based on their petal width. The goal is to build a linear regression model that can predict the petal length of iris flowers based on their petal width.
+
+**Objective**: Implement a linear regression model using Python's scikit-learn library to predict the petal length of iris flowers based on their petal width.
+
+**Tools Needed**: Python, Pandas, Matplotlib, and Scikit-learn libraries. (You can install these libraries using pip if they are not already installed: on the commandline, type `pip install matplotlib pandas scikit-learn`)
+
+**Dataset**: The Iris dataset is available in seaborn's library dataset collection.
+
+**Tasks**:
+
+1. Load the Dataset
+    - Import necessary libraries.
+    - Load the Iris dataset using seaborn.
+
+2. Data Visualization
+    - Plot the generated data points on a scatter plot to visualize the relationship between the independent variable (x) and the dependent variable (y).
+
+3. Create a Linear Regression Model
+    - Use scikit-learn to create a linear regression model and fit it with your data.
+
+4. Evaluate the Model
+    - Plot the regression line from the model over the scatter plot of the data.
+    - Print the coefficients of the regression, including the slope and intercept, and discuss what they mean in the context of your generated data.
+
+5. Prediction
+    - Use the model to make predictions on new data and plot these predictions on the graph.
